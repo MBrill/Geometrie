@@ -1,0 +1,10 @@
+# Backup-Files unserer ASCII-Editoren
+*~
+*.bak
+
+# Profile-Verzeichnisse aus der Kontrollfrage
+[Bb]in/
+
+# Eclipse Projektinfos
+.classpath
+.project

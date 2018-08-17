@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Konfiguration für Log4j2
+     $Author: brill $
+     $Revision: #1 $
+     $Id: //depot/Java/Geometrie/logging/src/log4j2.xml#1 $
+     $Date: 2014/08/05 $
+     -->
+<Configuration status="WARN">
+<Appenders>
+     <Console name="Console" target="SYSTEM_OUT">
+       <PatternLayout>
+         <Pattern>%d{dd. MM.YYYY HH:mm} %-5level %logger{36} - %msg%n</Pattern>
+       </PatternLayout>
+    </Console>
+    <!-- Default für einen FileAppender ist append="true" -->
+    <File name="myFile" fileName="logs/FirstScene.log"
+                        append="false">
+      <PatternLayout>
+         <Pattern>%d{dd.MM.YYYY HH:mm} %-5level %logger{36} - %msg%n</Pattern>
+      </PatternLayout>
+     </File>
+     <Async name="Async">
+       <AppenderRef ref="myFile"/>
+    </Async>
+</Appenders>
+<Loggers>
+	<!-- Konfiguration für den Logger in der Klasse Line -->
+    <Logger name="geometry.shapes.Line" level="INFO" />
+	<!-- Konfiguration für die restlichen Logger -->
+	<!-- Durch ersetzen des AppenderRef kann die Ausgabe
+	     auf die Konsole umgelenkt werden! -->
+    <Root level="ERROR">
+      <AppenderRef ref="myFile"/>
+    </Root>
+</Loggers>
+</Configuration>
