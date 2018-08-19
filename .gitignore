@@ -8,3 +8,6 @@
 # Eclipse Projektinfos
 .classpath
 .project
+
+# Ausgabe der FileHandler beim Logging
+Logs.txt
