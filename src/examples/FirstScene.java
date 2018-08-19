@@ -21,7 +21,7 @@ public class FirstScene {
 		
 		final Handler systemOut = new ConsoleHandler();
 		systemOut.setLevel(Level.CONFIG);
-		log.addHandler( systemOut);
+		log.addHandler(systemOut);
 		log.setLevel(Level.CONFIG);	
 		log.setUseParentHandlers(false);
 		
