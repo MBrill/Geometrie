@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Konfiguration für Log4j2
+     Root-Logger mit Level TRACE und geändertem Pattern
+     -->
+<Configuration status="WARN">
+<Appenders>
+     <Console name="Console" target="SYSTEM_OUT">
+       <PatternLayout>
+         <Pattern>%d{HH:mm} %-5level %logger{36} - %msg%n</Pattern>
+       </PatternLayout>
+    </Console>
+</Appenders>
+<Loggers>
+	<!-- Konfiguration für die Logger -->
+    <Root level="TRACE">
+      <AppenderRef ref="Console"/>
+    </Root>
+</Loggers>
+</Configuration>

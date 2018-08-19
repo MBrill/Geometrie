@@ -3,13 +3,21 @@ package geometry.shapes;
 import geometry.Point2D;
 import geometry.Shape;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Line extends Shape {
 
+    private static final Logger lineLog = LogManager.getLogger();
+    
 	Point2D begin = new Point2D(0.0, 0.0);
 	Point2D end = new Point2D(1.0, 0.0);
 	
 	public Line() {
-           this.refPoint = this.computeRefPoint();
+		lineLog.trace(">> Line()");
+        this.refPoint = this.computeRefPoint();
+        lineLog.info("** Linie mit Referenzpunkt {}", refPoint);
+        lineLog.trace("<< Line()");
 	}
 	
 	public Line(Point2D begin, Point2D end) {

@@ -5,6 +5,9 @@
 # Profile-Verzeichnisse aus der Kontrollfrage
 [Bb]in/
 
+# Log-Ausgaben
+logs/*
+
 # Eclipse Projektinfos
 .classpath
 .project
