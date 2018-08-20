@@ -5,6 +5,11 @@
 # Profile-Verzeichnisse aus der Kontrollfrage
 [Bb]in/
 
+# Verzeichnis mit log-Files und logback Configs
+logs/
+**/logback-test.xml
+**/logback.xml
+
 # Eclipse Projektinfos
 .classpath
 .project
