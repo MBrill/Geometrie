@@ -1,0 +1,17 @@
+<Configuration>
+     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+         <pattern>
+           %d{HH:mm} [%thread] %-5level %logger{36} - %msg%n
+          </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="examples.FirstScene" level="INFO">
+         <appender-ref ref="Console"/>
+    </logger>
+    
+    <logger name="geometry.shapes.Line" level="TRACE">
+         <appender-ref ref="Console"/>
+    </logger>
+</Configuration>
