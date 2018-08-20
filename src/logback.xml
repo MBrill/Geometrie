@@ -1,7 +1,7 @@
-<Configuration debug="true">
+<Configuration>
      <appender name="myFile" class="ch.qos.logback.coreFileAppender">
         <!-- LOGBack arbeitet nicht korrekt mit relativen Pfaden! -->
-        <file>C:\\Temp\\FirstScene.log</file>
+        <file>c:/temp/logs/test.log</file>
         <append>true</append>
         <!-- mit der folgenden Option wird der Performanz deutlich höher -->
         <immediateFlush>false</immediateFlush>
@@ -13,8 +13,17 @@
         </encoder>
     </appender>
 
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+         <pattern>
+           %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+          </pattern>
+        </encoder>
+    </appender>
+    
     <logger name="examples.FirstScene" level="INFO">
          <appender-ref ref="myFile"/>
+         <appender-ref ref="Console"/>
     </logger>
     
     <logger name="geometry.shapes.Line" level="TRACE">
@@ -22,6 +31,6 @@
     </logger>
     
     <root level="DEBUG">
-          <appender-ref ref="myFile"/>   
+          <appender-ref ref="Console"/>   
     </root>
 </Configuration>
