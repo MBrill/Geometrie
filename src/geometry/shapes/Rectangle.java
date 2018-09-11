@@ -31,7 +31,7 @@ public class Rectangle extends Shape {
 	
 	@Override
         public String toString() {
-		return "Rechteck\nLinke untere Ecke " + this.base + " , Breite " + this.width + " , HÃ¶he " 
+		return "Rechteck\nLinke untere Ecke " + this.base + " , Breite " + this.width + " , Höhe " 
               + this.height + "\n" + "Referenzpunkt " + this.refPoint;
 	}
 	
