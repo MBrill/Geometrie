@@ -3,6 +3,10 @@ package examples;
 import geometry.*;
 import geometry.shapes.*;
 
+/**
+ * Instanziieren von Objekten und einer Szene und Durchlaufen der
+ * Szene mit ASCII-Ausgaben auf der Konsole.
+ */
 public class FirstScene {
 
 	public static void main(String[] args) {
