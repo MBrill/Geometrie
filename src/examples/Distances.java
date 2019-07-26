@@ -8,7 +8,7 @@ public class Distances {
 		Rectangle box = new Rectangle();
 		Circle circle = new Circle();
 		
-		// Abst�nde berechnen
+		// Abstände berechnen
 		System.out.println("Abstand zwischen Linie und Rechteck (korrekt ist 0.5):");
 		System.out.println(line.distanceTo(box));
 		System.out.println("Abstand zwischen Kreis und Rechteck (korrekt ist wurzel(2)/2");
