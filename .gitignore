@@ -16,3 +16,4 @@ logs/
 # Eclipse Projektinfos
 .classpath
 .project
+.settings/
