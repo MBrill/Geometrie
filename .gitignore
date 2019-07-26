@@ -10,6 +10,9 @@ logs/
 **/logback-test.xml
 **/logback.xml
 
+# HTML Dokumentation
+[Hh]tml/
+
 # Eclipse Projektinfos
 .classpath
 .project
