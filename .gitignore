@@ -1,6 +1,9 @@
+# Java class-Files
+**/*.java
+
 # Backup-Files unserer ASCII-Editoren
-*~
-*.bak
+**/*~
+**/*.bak
 
 # Profile-Verzeichnisse aus der Kontrollfrage
 [Bb]in/
