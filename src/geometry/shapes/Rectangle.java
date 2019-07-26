@@ -6,6 +6,7 @@ import geometry.Shape;
 /**
  * Ein Rechteck als zweidimensionales Objekt. 
  * 
+ * <p>
  * Wir repräsentieren das Rechteck
  * durch den linken unteren Eckpunkt, Höhe und Breite.
  * Der Referenzpunkt ist der Mittelpunkt des Rechtecks, also
