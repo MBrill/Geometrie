@@ -8,6 +8,11 @@
 # Profile-Verzeichnisse aus der Kontrollfrage
 [Bb]in/
 
+# Ordner für die HTML-Dokumentation
+# Die Ergebnisse sind reproduzierbar, deshalb wird das
+# Verzeichnis html ignoriert
+[Hh]tml/
+
 # Eclipse Projektinfos
 .classpath
 .project
