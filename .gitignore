@@ -6,7 +6,10 @@
 [Bb]in/
 
 # Log-Ausgaben
-logs/*
+logs/
+
+# HTML-Verzeichnis mit Dokumentation
+[Hh]tml/
 
 # Eclipse Projektinfos
 .classpath
