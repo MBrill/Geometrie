@@ -16,6 +16,7 @@
 # Eclipse Projektinfos
 .classpath
 .project
+.settings/
 
 # Ausgabe der FileHandler beim Logging
 Logs.txt
