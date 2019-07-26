@@ -6,7 +6,7 @@ import geometry.Shape;
 /**
  * Ein Kreis als zweidimensionales Objekt. 
  * 
- * Wir repräsentieren den Kreis
+ * Wir reprÃ¤sentieren den Kreis
  * durch den Mittelpunkt und den Radius. Als Referenzpunkt verwenden wir den Mittelpunkt.
  */
 public class Circle extends Shape {
@@ -34,7 +34,7 @@ public class Circle extends Shape {
 	
 	/**
 	 * Ein Kreis mit Mittelpunkt und Radius.
-	 * Der Referenzpunkt ist der übergebene Mittelpunkt.
+	 * Der Referenzpunkt ist der ï¿½bergebene Mittelpunkt.
 	 * 
 	 * \param[in] midPoint Mittelpunkt
 	 * \param[in] radius   Radius
@@ -42,8 +42,8 @@ public class Circle extends Shape {
 	public Circle(Point2D midPoint, double radius) {
 		
 		/* 
-         * Wir können ausnahmsweise den Konstruktor der Basisklasse
-		 * verwenden, da wir den Referenzpunkt nicht berechnen müssen.
+         * Wir kÃ¶nnen ausnahmsweise den Konstruktor der Basisklasse
+		 * verwenden, da wir den Referenzpunkt nicht berechnen mÃ¼ssen.
 		 */
 		super(midPoint);
 		this.midPoint = midPoint;
@@ -51,7 +51,7 @@ public class Circle extends Shape {
 	}
 	
 	/**
-	 * Überschreiben der Funktion toString für Konsolenausgaben.
+	 * Ãœberschreiben der Funktion toString fÃ¼r Konsolenausgaben.
 	 * 
 	 * \return Ein String, der den Kreis beschreibt.
 	 */
@@ -62,7 +62,7 @@ public class Circle extends Shape {
 	
     /**
      * Der Referenzpunkt ist durch den Mittelpunkt gegeben.
-     * Deshalb ist in dieser Klasse keine Berechnung nötig.
+     * Deshalb ist in dieser Klasse keine Berechnung nÃ¶tig.
      * 
      * \return Der Mittelpunkt als Referenzpunkt
      */

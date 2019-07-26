@@ -1,7 +1,7 @@
 package geometry;
 
 /**
- * Basisklasse für die zweidimensionalen geometrische Objekte.
+ * Basisklasse fÃ¼r die zweidimensionalen geometrische Objekte.
  * 
  * Die Geometrie der Objekte wird mit Hilfe der Klasse {@link geometry.Point2D Point2D}
  * definiert.
@@ -9,13 +9,13 @@ package geometry;
  * Jedes geometrische Objekt in unserer Bibliothek hat einen
  * Referenzpunkt. Damit ist immer das Zentrum gemeint, das wir
  * als arithmetisches Mittel der Punkte des Objekts berechnen 
- * können. Als Default ist dieser Referenzpunkt immer der Ursprung.
+ * kÃ¶nnen. Als Default ist dieser Referenzpunkt immer der Ursprung.
  * 
- * Abstände zwischen geometrischen Objekten berechnen wir mit Hilfe
+ * AbstÃ¤nde zwischen geometrischen Objekten berechnen wir mit Hilfe
  * des euklidischen Abstands zwischen den Referenzpunkten.
  */
 /**
- * \todo Nicht nur für die Klasse Line, sondern auch für alle anderen
+ * \todo Nicht nur fÃ¼r die Klasse Line, sondern auch fÃ¼r alle anderen
  * instanziierbaren Shapes Grafiken erstellen und in die Dokumentation
  * aufnehmen.
  */
@@ -47,7 +47,7 @@ public abstract class Shape {
 	 * 
 	 * Der Abstand ist definiert als euklidischer Abstand zwischen den Referenzpunkten.
 	 * 
-	 * @param[in] s geometrisches Objekt, für das der Abstand zur aktuellen Instanz berechnet werden soll
+	 * @param[in] s geometrisches Objekt, fÃ¼r das der Abstand zur aktuellen Instanz berechnet werden soll
 	 * @return Abstand der geometrischen Objekte
 	 */
     public double distanceTo(Shape s) {
@@ -80,7 +80,7 @@ public abstract class Shape {
      * Anschliessend geben wir die Szene auf der Konsole
      * aus. Dabei wird die Szene intern durchlaufen
      * und alle enthaltenen Objekte, in der Reihenfolge,
-     * in der sie hinzugef&uuml;gt wurden, werden ausgegeben.
+     * in der sie hinzugefÃ¼gt wurden, werden ausgegeben.
      */   
 }
 

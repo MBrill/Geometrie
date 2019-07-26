@@ -12,13 +12,13 @@ import java.util.ArrayList;
 
 /**
  * \todo Die lineare Liste kann durch einen Baum oder einen anderen Container
- * ersetzt werden. Mit einem Baum werden hierarchische Beziehungen möglich,
- * also Gruppierungen von Objekten, die gemeinsam behandelt werden können.
+ * ersetzt werden. Mit einem Baum werden hierarchische Beziehungen mÃ¶glich,
+ * also Gruppierungen von Objekten, die gemeinsam behandelt werden kÃ¶nnen.
  */
 public class Scene {
 	
 	/**
-	 * Als Container für die Szene wird eine ArrayList verwendet.
+	 * Als Container fÃ¼r die Szene wird eine ArrayList verwendet.
 	 */
 	private ArrayList<Shape> scene;
 	
@@ -50,10 +50,10 @@ public class Scene {
 	}
 	
 	/**
-	 * Überschreiben der Funktion toString für Konsolenausgaben.
+	 * ï¿½berschreiben der Funktion toString fÃ¼r Konsolenausgaben.
 	 * <p>
 	 * Jedes objekt erzeugt eine neue Zeile in der Ausgabe. Der Text wird
-	 * durch die in den Klassen überschriebene Funktion 
+	 * durch die in den Klassen Ã¼berschriebene Funktion 
 	 * \code
 	 *   toString()
 	 * \endcode
@@ -76,7 +76,7 @@ public class Scene {
 	}
 	
 	/**
-	 * Abfragen, ob die Szene Objekte enthält.
+	 * Abfragen, ob die Szene Objekte enthÃ¤lt.
 	 * 
 	 * \return true, falls die Liste leer ist.
 	 */

@@ -1,11 +1,11 @@
 package geometry;
 
 /**
- * Eine Klasse für die Repräsentation von Punkten in der
+ * Eine Klasse fï¿½r die ReprÃ¤sentation von Punkten in der
  * zweidimensionalen Ebene.
  * 
  * Ein Punkt wird mit Hilfe von zwei Koordinaten, genannt x und y,
- * repräsentiert. Dafür wird der Datentyp double verwendet.</p>
+ * reprÃ¤sentiert. DafÃ¼r wird der Datentyp double verwendet.</p>
  * 
  * Die Klasse heisst Point2D statt einfach Point, um Verwechselungen
  * mit dem built-in Typ Point in Java zu vermeiden!</p>
@@ -107,9 +107,9 @@ public class Point2D {
 	}
 	
 	/**
-	 * Überschreiben der Funktion toString für Konsolenausgaben.
+	 * ï¿½berschreiben der Funktion toString fï¿½r Konsolenausgaben.
 	 * <p>
-	 * Für den Punkt wird der String (x, y) ausgegeben. Dabei stehen in x und y
+	 * FÃ¼r den Punkt wird der String (x, y) ausgegeben. Dabei stehen in x und y
 	 * die {@code double}-Werte der Instanz.
 	 */
 	@Override

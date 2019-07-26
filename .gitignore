@@ -16,6 +16,7 @@
 # Eclipse Projektinfos
 .classpath
 .project
+.settings/
 
 # Output von Doxygen ignorieren
 html/

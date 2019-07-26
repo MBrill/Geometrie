@@ -1,4 +1,4 @@
 /**
- * \package Grundlegende Klassen für das Geometrie-Projekt.
+ * \package Grundlegende Klassen fÃ¼r das Geometrie-Projekt.
  */
 package geometry;

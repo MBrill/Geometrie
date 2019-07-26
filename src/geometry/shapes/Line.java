@@ -6,7 +6,7 @@ import geometry.Shape;
 /**
  * Eine Linie als zweidimensionales Objekt. 
  * 
- * Wir repräsentieren die Linie
+ * Wir reprÃ¤sentieren die Linie
  * durch Anfangs- und Endpunkt. Als Referenzpunkt verwenden wir den Mittelpunkt
  * der Linie.
  * 
@@ -50,7 +50,7 @@ public class Line extends Shape {
 	
 	   
 	/**
-	 * Überschreiben der Funktion toString für Konsolenausgaben.
+	 * Ãœberschreiben der Funktion toString fÃ¼r Konsolenausgaben.
 	 * 
 	 * \return Ein String, der die Linie beschreibt.
 	 */
