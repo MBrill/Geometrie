@@ -41,6 +41,10 @@ public class Triangle extends Shape {
 	
 	/**
 	 * Dreieck mit drei angegebenenEckpunkten
+	 * 
+	 * @param one Erster Punkt
+	 * @param two Zweiter Punkt
+	 * @param three Dritter Punkt
 	 */
 	public Triangle(Point2D one, Point2D two, Point2D three) {
         this.one = one;
@@ -66,11 +70,11 @@ public class Triangle extends Shape {
 	 * 
 	 * Als Koeffizienten der Konvexkombination wird für jeden Eckpunkt 
 	 * 1/3 verwendet:
-     * <pre><font size="-1">
+     * <pre>
      * {@code
      *   new Point2D((one.getX() + two.getX() + three.getX())/3.0, 
 				     (one.getY() + two.getY() + three.getY())/3.0); 
-     * }</font>
+     * }
      * </pre>
 	 */
 	@Override

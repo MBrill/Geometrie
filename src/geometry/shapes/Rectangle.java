@@ -89,11 +89,11 @@ public class Rectangle extends Shape {
      * Berechne den Referenzpunkt als Mittelpunkt des Rechtecks.
      * 
      * Der Mittelpunkt ist gegeben durch
-     * <pre><font size="-1">
+     * <pre>
      * {@code
      *   new Point2D(base.getX() + 0.5*width, 
      *               base.getY() + 0.5*height) 
-     * }</font>
+     * }
      * </pre>
      */
 	@Override	

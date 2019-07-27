@@ -12,7 +12,7 @@ import geometry.Shape;
  * 
  * <p>Die folgende Abbildung zeigt die drei Punkte und die Linie:</p>
  * 
- * <p><img src="doc-files/lineDok.jpg"></p>
+ * <p><img src="doc-files/lineDok.jpg" alt="Bild zur Dokumentation der Klasse Line"></p>
  */
 public class Line extends Shape {
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Eine Szene ist eine Ansammlung von geometrischen Objekten.
  * 
- * Hauptzweck der Klasse ist es eine Szene zu erzeugen
+ * <p>Hauptzweck der Klasse ist es eine Szene zu erzeugen
  * und zu traversieren. Zur Zeit ist nur eine lineare Liste
  * als Szene implementiert, also keine hierarchischen Beziehungen.</p>
  */
@@ -62,6 +62,8 @@ public class Scene {
 	
 	/**
 	 * Abfragen, wie viele Objekte in der Szene aktuell enthalten sind.
+	 * 
+	 * @return Anzahl der Objekte in der Szene
 	 */
 	public int getNumberOfobjects() {
 		return scene.size();

@@ -50,6 +50,8 @@ public abstract class Shape {
 	
     /**
      * Funktion, die den Referenzpunkt berechnet.
+     * 
+     * @return Berechneter Referenzpunkt
      */
     protected abstract Point2D computeRefPoint();
 }
