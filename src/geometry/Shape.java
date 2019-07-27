@@ -66,7 +66,7 @@ public abstract class Shape {
      * \image html g2dlogo.jpg "Das Projekt-Logo"
      * 
      * Dies ist die Hauptseite der mit Doxygen erzeugten HTML-Dokumentation. In dieser
-     * Version wurden Javadoc-Kommentare verwendet.
+     * Version wurden Kommentare im Javadoc-Style verwendet.
      * 
      * Dieser Text befindet sich in der Datei Shape.java.
      */
