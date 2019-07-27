@@ -5,4 +5,4 @@ Wir werden dieses kleine Java-Projekt verwenden, um mit git zu arbeiten,
 die Quellen zu dokumentieren, 
 mit Logging-Aufrufen zu versehen und mit Jenkins ein Build durchzuführen.
 
-Dieser Branch enthaelt die javadoc-Version.
+Dieser Branch enthält die javadoc-Version.
