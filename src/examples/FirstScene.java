@@ -3,14 +3,18 @@ package examples;
 import geometry.*;
 import geometry.shapes.*;
 
+/**
+ * Instanziieren von Objekten und einer Szene und Durchlaufen der
+ * Szene mit ASCII-Ausgaben auf der Konsole.
+ */
 public class FirstScene {
-
 	public static void main(String[] args) {
 		Scene scene = new Scene();
 		Line line = new Line();
 		Rectangle box = new Rectangle();
 		Triangle triangle = new Triangle();
 		Circle circle = new Circle();
+		
 		
 		scene.addObject(line);
 		scene.addObject(box);
@@ -19,6 +23,5 @@ public class FirstScene {
 		
 		System.out.println("Die Szene");
 		System.out.println(scene);
-			}
-
+	}
 }
