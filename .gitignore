@@ -12,6 +12,7 @@
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
 # Verzeichnis html ignoriert
 [Hh]tml/
+[Dd]oc/
 
 # Eclipse Projektinfos
 .classpath
