@@ -10,6 +10,13 @@ import geometry.Shape;
  * durch den linken unteren Eckpunkt, Höhe und Breite.
  * Der Referenzpunkt ist der Mittelpunkt des Rechtecks, also
  * Eckpunkt + 0.5*(Breite, Höhe).</p>
+ * 
+ * <p>
+ * Die folgende Abbildung zeigt diese Angaben. Der linke untere
+ * Eckpunkt (base), Höhe und Breite, und den Schwerpunkt des
+ * Rechtecks ls Referenzpunkt:</p>
+ * 
+ * <p><img src="doc-files/rectangleDok.jpg" alt="Dokumentation für das Rechteck"></p>
  */
 public class Rectangle extends Shape {
 

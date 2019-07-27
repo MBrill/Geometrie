@@ -10,6 +10,11 @@ import geometry.Shape;
  * durch seine drei Eckpunkte. Der Referenzpunkt ist
  * der Schwerpunkt des Dreiecks, gegeben durch die
  * Konvexkombination mit 1/3 als Koeffizient.</p>
+ * 
+ * <p>Die folgende Abbildung zeigt die drei Punkte für die Definion
+ * des Dreiecks und den Schwerpunkt als Referenzpunkt:</p>
+ * 
+ * <p><img src="doc-files/triangleDok.jpg" alt="Dokumentation des Dreiecks"></p>
  */
 public class Triangle extends Shape {
 	
