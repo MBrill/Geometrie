@@ -13,6 +13,9 @@
 # Verzeichnis html ignoriert
 [Hh]tml/
 
+# Javadoc-Ergebnis ignorieren
+[Dd]oc/
+
 # Eclipse Projektinfos
 .classpath
 .project
