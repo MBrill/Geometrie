@@ -6,10 +6,12 @@ import geometry.Shape;
 /**
  * Ein Dreieck als zweidimensionales Objekt. 
  * 
- * Wir repräsentieren das Dreieck
+ * <p>Wir repräsentieren das Dreieck
  * durch seine drei Eckpunkte. Der Referenzpunkt ist
  * der Schwerpunkt des Dreiecks, gegeben durch die
- * Konvexkombination mit 1/3 als Koeffizient.
+ * Konvexkombination mit 1/3 als Koeffizient.</p>
+ * 
+ * \image html triangleDok.jpg "Ein Dreieck, definiert durch die Eckpunkte"
  */
 public class Triangle extends Shape {
 	

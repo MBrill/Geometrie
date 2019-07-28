@@ -11,6 +11,8 @@ import geometry.Shape;
  * durch den linken unteren Eckpunkt, Höhe und Breite.
  * Der Referenzpunkt ist der Mittelpunkt des Rechtecks, also
  * Eckpunkt + 0.5*(Breite, Höhe).</p>
+ * 
+ * \image html rectangleDok.jpg "Ein Rechteck, definiert durch den linken unteren Punkt, Breite und Höhe"
  */
 public class Rectangle extends Shape {
 

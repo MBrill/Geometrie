@@ -8,6 +8,8 @@ import geometry.Shape;
  * 
  * Wir repräsentieren den Kreis
  * durch den Mittelpunkt und den Radius. Als Referenzpunkt verwenden wir den Mittelpunkt.
+ * 
+ * \image html circleDok.jpg "Mittelpunkt und Radius"
  */
 public class Circle extends Shape {
 	
