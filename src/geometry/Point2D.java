@@ -1,7 +1,7 @@
 package geometry;
 
 /**
- * Eine Klasse f�r die Repräsentation von Punkten in der
+ * Eine Klasse für die Repräsentation von Punkten in der
  * zweidimensionalen Ebene.
  * 
  * <p>Ein Punkt wird mit Hilfe von zwei Koordinaten, genannt x und y,
