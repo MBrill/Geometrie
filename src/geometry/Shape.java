@@ -14,11 +14,6 @@ package geometry;
  * Abstände zwischen geometrischen Objekten berechnen wir mit Hilfe
  * des euklidischen Abstands zwischen den Referenzpunkten.
  */
-/**
- * \todo Nicht nur für die Klasse Line, sondern auch für alle anderen
- * instanziierbaren Shapes Grafiken erstellen und in die Dokumentation
- * aufnehmen.
- */
 public abstract class Shape {
 	
 	/** 
@@ -81,6 +76,14 @@ public abstract class Shape {
      * aus. Dabei wird die Szene intern durchlaufen
      * und alle enthaltenen Objekte, in der Reihenfolge,
      * in der sie hinzugefügt wurden, werden ausgegeben.
-     */   
+     */  
+    
+    /** 
+     * \example Distances.java
+     *
+     * Dieses Beispiel zeigt exemplarisch, wie für eine Instanz
+     * einer Linie und eines Rechtecks der Abstand zwischen
+     * den Objekten berechnet werden kann.
+     */       
 }
 

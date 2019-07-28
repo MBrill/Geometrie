@@ -1,5 +1,5 @@
 # Java class-Files
-**/*.java
+**/*.class
 
 # Backup-Files unserer ASCII-Editoren
 **/*~
@@ -12,11 +12,9 @@
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
 # Verzeichnis html ignoriert
 [Hh]tml/
+[Dd]oc/
 
 # Eclipse Projektinfos
 .classpath
 .project
 .settings/
-
-# Output von Doxygen ignorieren
-html/
