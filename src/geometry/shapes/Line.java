@@ -1,7 +1,9 @@
+/*
+ * Logging mit JUL
+ */
 package geometry.shapes;
 
 import java.util.logging.*;
-
 import geometry.Point2D;
 import geometry.Shape;
 
@@ -14,15 +16,19 @@ public class Line extends Shape {
 	Point2D end = new Point2D(1.0, 0.0);
 	
 	public Line() {
-		setupLogging();
+		setupLogging(lineLog, systemOut);
         lineLog.info(">> Line()");
+        
         this.refPoint = this.computeRefPoint();
+        
         lineLog.config("** Linie mit Referenzpunkt" + refPoint);
         lineLog.info("<< Line()");
 	}
 	
 	public Line(Point2D begin, Point2D end) {
-		setupLogging();
+		setupLogging(lineLog, systemOut);
+		lineLog.info(">> Line(Point2D, Point2D)");
+		
 		this.begin = begin;
 		this.end = end;
         this.refPoint = this.computeRefPoint();
@@ -40,12 +46,4 @@ public class Line extends Shape {
     protected Point2D computeRefPoint() {
     	    return new Point2D(0.5*(begin.getX()+end.getX()), 0.5*(begin.getY()+end.getY()));
     }
-	
-	private void setupLogging() {
-		lineLog.setLevel(Level.CONFIG);	
-		lineLog.setUseParentHandlers(false);		
-		systemOut.setLevel(Level.CONFIG);
-		lineLog.addHandler(systemOut);
-	}
-    
 }
