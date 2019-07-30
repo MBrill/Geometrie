@@ -3,6 +3,7 @@
  */
 package examples;
 
+import java.io.IOException;
 import java.util.logging.*;
 
 import geometry.*;
@@ -19,6 +20,18 @@ public class FirstScene
 		log.addHandler(systemOut);
 		log.setLevel(Level.CONFIG);	
 		log.setUseParentHandlers(false);
+
+		final FileHandler fileTxt;
+		final SimpleFormatter formatter = new SimpleFormatter();
+		
+		try {
+			fileTxt = new FileHandler("Logs.txt");
+			fileTxt.setFormatter(formatter);
+			fileTxt.setLevel(Level.ALL);
+			log.addHandler(fileTxt);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		log.info(">> FirstScene.Main");
 		
