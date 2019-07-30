@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Konfiguration für Log4j2
+     Separate Logging-Dateien f�r Line und Rectangle
+-->
+<Configuration status="WARN">
+<Appenders>
+     <File name="FirstScene" fileName="logs/FirstScene.log"
+                             append="false">
+      <PatternLayout>
+         <Pattern>%d{dd.MM.YYYY} %-5level %logger{36} - %msg%n</Pattern>
+      </PatternLayout>
+     </File>
+     <!-- Default für einen FileAppender ist append="true" -->
+     <File name="LineLogger" fileName="logs/line.log"
+                             append="true">
+      <PatternLayout>
+         <Pattern>%d{dd.MM.YYYY} %-5level %logger{36} - %msg%n</Pattern>
+      </PatternLayout>
+     </File>
+     <File name="RectangleLogger" fileName="logs/rectangle.log"
+                                 append="true">
+      <PatternLayout>
+         <Pattern>%d{dd.MM.YYYY} %-5level %logger{36} - %msg%n</Pattern>
+      </PatternLayout>
+     </File>     
+</Appenders>
+<Loggers>
+	<!-- Konfiguration für den Logger in der Klasse Line -->
+    <Logger name="geometry.shapes.Line"
+            level="INFO"
+            additivity="false">>
+        <AppenderRef ref="LineLogger"/>
+    </Logger>
+    <!-- Konfiguration für den Logger in der Klasse Rectangle -->
+    <Logger name="geometry.shapes.Rectangle" 
+            level="INFO"
+            additivity="false">
+            <AppenderRef ref="RectangleLogger"/>
+    </Logger>
+	<!-- Konfiguration für die restlichen Logger -->
+    <Root level="ERROR">
+      <AppenderRef ref="FirstScene"/>
+    </Root>
+</Loggers>
+</Configuration>
