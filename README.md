@@ -3,11 +3,11 @@ Unser Standardbeispiel für die Online-Phase der Lehrveranstaltung Software Mana
 
 Dies ist die Version mit Logging-Aufrufen mit Log4J. Die jar-Files von log4j2 müssen im classpath des Projekts liegen.
 
-Neben den Veränderungen in den Java-Klassen gibt es insbesondere verschiedene xml-Dateien für die Konfiguration von Log4J2. Diese liegen immer im src-Verzeichnis. Verwendet wird immer die Datei log4j2.xml. 
+Neben den Veränderungen in den Java-Klassen gibt es insbesondere verschiedene xml-Dateien für die Konfiguration von Log4J2. Diese liegen immer im src-Verzeichnis. Verwendet wird die Datei log4j2.xml. 
 
 - log4j2+Default.xml enthält die Default-Konfiguration.
 - log4j2+TRACE.xml enthält eine Konfiguration, die TRACE statt ERROR in der Default-Konfiguration verwendet, wie im Text beschrieben.
-- log4j2+LineLogger.xml verwendet eine separate Konfiguration für den Logger in dr Klasse Line.
+- log4j2+LineLogger.xml verwendet eine separate Konfiguration für den Logger in der Klasse Line.
 - log4j2+FileAsync verwendet Logging in eine ASCII-Datei
 - log4j2+Line+Rectangle verwendet Logging in ASCII-Dateien. Dabei gibt es drei Einträge, für das Hauptprogramm und separat für die beiden Klassen Line und Rectangle. 
 
