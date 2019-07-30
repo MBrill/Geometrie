@@ -6,7 +6,6 @@ import geometry.shapes.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class FirstScene {
 
     private static final Logger log = LogManager.getLogger();
@@ -14,6 +13,7 @@ public class FirstScene {
 	public static void main(String[] args) {
 
 		log.trace(">> FirstScene.Main");
+		
 		Scene scene = new Scene();
 		Line line = new Line();
 		Rectangle box = new Rectangle();
@@ -30,5 +30,4 @@ public class FirstScene {
 		
 		log.trace("<< FirstScene.Main");
 	}
-
 }

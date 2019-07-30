@@ -15,11 +15,11 @@
     </Async>
 </Appenders>
 <Loggers>
-  <!-- Weiterer spezifischer Logger für
-       die Klasse geometry.shapes.Line
-       mit Level INFO 
-  -->
-  <Logger name="geometry.shapes.Line" level="INFO" />
+    <!--   Weiterer spezifischer Logger für
+         die Klasse geometry.shapes.Line
+         mit Level INFO 
+    -->
+    <Logger name="geometry.shapes.Line" level="INFO" />
 	<!-- Konfiguration für alle anderen Logger -->
     <Root level="ERROR">
       <AppenderRef ref="myFile"/>

@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Konfiguration für Log4j2
-     Root-Logger mit Level TRACE und Konfiguration
-     des Loggers für die Klasse Line
+     Root-Logger mit Level TRACE und geändertem Pattern
      -->
 <Configuration status="WARN">
 <Appenders>
-    <File name="myFile" fileName="logs/FirstScene.log" append="false">
-      <PatternLayout>
-       <Pattern>%d{HH:mm} %-5level %logger{36} - %msg%n</Pattern>
-      </PatternLayout>
-    </File>
-        <Async name="Async">
-       <AppenderRef ref="myFile"/>
-    </Async>
+     <Console name="Console" target="SYSTEM_OUT">
+       <PatternLayout>
+         <Pattern>%d{HH:mm} %-5level %logger{36} - %msg%n</Pattern>
+       </PatternLayout>
+    </Console>
 </Appenders>
 <Loggers>
-  <!-- Weiterer spezifischer Logger für
-       die Klasse geometry.shapes.Line
-       mit Level INFO 
-  -->
-  <Logger name="geometry.shapes.Line" level="INFO" />
-	<!-- Konfiguration für alle anderen Logger -->
-    <Root level="ERROR">
-      <AppenderRef ref="myFile"/>
+	<!-- Konfiguration für die Logger -->
+    <Root level="TRACE">
+      <AppenderRef ref="Console"/>
     </Root>
 </Loggers>
 </Configuration>

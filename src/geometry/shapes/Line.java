@@ -21,11 +21,13 @@ public class Line extends Shape {
 	}
 	
 	public Line(Point2D begin, Point2D end) {
+		lineLog.trace(">> Line(Point2D, Point2D)");
 		this.begin = begin;
 		this.end = end;
         this.refPoint = this.computeRefPoint();
+        lineLog.info("** Linie mit Referenzpunkt {}", refPoint);
+        lineLog.trace("<< Line(Point2D, Point2D)");
 	}
-	
 	   
 	@Override
         public String toString() {
