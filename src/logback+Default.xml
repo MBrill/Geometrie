@@ -2,16 +2,12 @@
      <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
          <pattern>
-           %d{HH:mm} [%thread] %-5level %logger{36} - %msg%n
+           %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
           </pattern>
         </encoder>
     </appender>
-
-    <logger name="examples.FirstScene" level="INFO">
-         <appender-ref ref="Console"/>
-    </logger>
-    
+   
     <root level="debug">
-         <appender-ref ref="Console"/>     
+           <appender-ref ref="Console"/>   
     </root>
 </Configuration>
