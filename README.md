@@ -14,4 +14,5 @@ Die Datei build.xml enthält die folgenden targets:
 - run führt die Anwendung FirstScene auf der Basis der jar-Datei aus.
 - runFirst ist identische mit run und führt die Anwendung FirstScene aus.
 - runDistances führt die Anwendung Distances aus, ebenfalls auf Basis der jar-Datei.
+- javadoc erstellt eine Javadoc-Dokumentation. Es wird keine overview.html verwendet.
 - clean räumt das Verzeichnis auf.

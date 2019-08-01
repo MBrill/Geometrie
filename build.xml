@@ -13,6 +13,7 @@
 	              und werden mit clean gelöscht.  -->
 	         <property name="bin.dir" location="bin" />
 	         <property name="dist.dir" location="dist" />
+	         <property name="doc.dir" location="docs" />
 	      
 	         <!-- Name der Anwendungsklassen und der jar-Datei -->
 	         <property name="main.first" value="examples.FirstScene" />
@@ -31,6 +32,7 @@
 	  	       <echo message= "Create the directories!" />
 	           <mkdir dir="${bin.dir}" />
 			   <mkdir dir="${dist.dir}" />
+			   <mkdir dir="${doc.dir}" />
 	        </target>
 	  
            <target name="compile" depends="makedir">
@@ -39,6 +41,22 @@
               <javac srcdir="${src.dir}" destdir="${bin.dir}"/>
            </target>
 	
+          <!-- Javadoc aufrufen und die Dokumentation bauen -->
+          <target name="javadoc" depends="makedir">
+            <echo message= "Building the Javadoc documentation"/>
+            <javadoc  destdir="${doc.dir}" 
+                      author="true" 
+                      use="false"
+                      charset="UTF-8"
+                      docencoding="UTF-8"
+                      encoding="UTF-8"
+                      windowtitle="Javadoc">
+              <fileset dir="." defaultexcludes="yes" />       
+              <!-- HTML-Titel setzen -->
+              <doctitle><![CDATA[<h1>Javadoc mit ant</h1>]]></doctitle>
+            </javadoc>
+          </target>
+          
 	       <tstamp />
 		   
 	       <target name="jar" depends="compile">
@@ -78,5 +96,6 @@
 	      	<echo message= "Cleaning up!" />
 	  	    <delete dir="${bin.dir}" />
 	  	    <delete dir="${dist.dir}" />
+	  	    <delete dir="${doc.dir}" />
 	      </target>
 </project>
