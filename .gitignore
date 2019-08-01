@@ -4,6 +4,7 @@
 # Backup-Files unserer ASCII-Editoren
 **/*~
 **/*.bak
+**/*.swp
 
 # Binäre Dateien wie *.class
 [Bb]in/

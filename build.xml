@@ -14,10 +14,18 @@
 	         <property name="bin.dir" location="bin" />
 	         <property name="dist.dir" location="dist" />
 	      
-	         <!-- Name der Anwendungsklasse und der jar-Datei -->
-	         <property name="main-Class" value="examples.FirstScene" />
+	         <!-- Name der Anwendungsklassen und der jar-Datei -->
+	         <property name="main.first" value="examples.FirstScene" />
+	         <property name="main.distances" value="examples.Distances" />
 	         <property name="executable" value = "${dist.dir}/Geometrie.jar" />
 			      
+			<path id="geometrieCP">
+			<!-- classpath Eintrag für unser jar -->
+               <fileset dir="${dist.dir}">
+                   <include name="**/*.jar" />
+               </fileset>
+            </path>
+            
 	        <!-- Verzeichnisse erstellen -->
 	        <target name="makedir">
 	  	       <echo message= "Create the directories!" />
@@ -38,16 +46,30 @@
 			   <jar destfile="${executable}" basedir="${bin.dir}">
 			     <!-- Manifest erzeugen -->
 			     <manifest>
-			        <attribute name="Main-Class" value="${main-Class}" />
+			        <attribute name="Main-Class" value="${main.first}" />
 				    <attribute name="Build-Date" value="${TODAY}" />
 			     </manifest>
 		       </jar>
 		   </target>
 		   
            <target name="run" depends="jar"> 
-              <echo message = "Ant running a jar!"/>
+              <echo message = "Running FirstScene ..."/>
               <java jar="${executable}" dir="${dist.dir}" fork="true" />
            </target>
+          <target name="runFirst" depends="run">
+             <echo message = "Running FirstScene ..."/>
+          </target>
+          
+          <target name="runDistances" depends="jar">
+             <echo message = "Running Distances ..."/>
+             <java classname="${main.distances}"> 
+             <classpath>
+                 <pathelement location="${dist.dir}" />
+                 <path refid="geometrieCP" />
+             </classpath>
+             </java>
+          </target>
+              
           <target name="all" depends="run, compile, makedir"> 
             <echo message = "compile the sources and run the application!"/>
           </target>	
