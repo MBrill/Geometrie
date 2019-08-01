@@ -5,8 +5,11 @@
 **/*~
 **/*.bak
 
-# Profile-Verzeichnisse aus der Kontrollfrage
+# Binäre Dateien wie *.class
 [Bb]in/
+
+# Log-Files ignorieren
+[Ll]ogs/
 
 # Ordner für die HTML-Dokumentation
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
