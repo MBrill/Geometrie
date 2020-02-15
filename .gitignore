@@ -13,6 +13,8 @@
 # Verzeichnis html ignoriert
 [Hh]tml/
 [Dd]oc/
+# Verzeichnis mit Log-Files
+[Ll]ogs/
 
 # Eclipse Projektinfos
 .classpath
