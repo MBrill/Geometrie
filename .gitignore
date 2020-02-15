@@ -1,5 +1,5 @@
 # Java class-Files
-**/*.java
+**/*.class
 
 # Backup-Files unserer ASCII-Editoren
 **/*~
@@ -16,6 +16,9 @@
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
 # Verzeichnis html ignoriert
 [Hh]tml/
+[Dd]oc/
+# Verzeichnis mit Log-Files
+[Ll]ogs/
 
 # Javadoc-Ergebnis ignorieren
 [Dd]oc/
