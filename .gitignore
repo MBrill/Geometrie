@@ -11,6 +11,8 @@
 # Ordner für die HTML-Dokumentation
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
 # Verzeichnis html ignoriert
+
+# Doxygen-Ergebnis ignorieren
 [Hh]tml/
 
 # Javadoc-Ergebnis ignorieren
