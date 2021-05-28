@@ -8,6 +8,9 @@
 # Profile-Verzeichnisse aus der Kontrollfrage
 [Bb]in/
 
+# Logs ignorieren
+[Ll]ogs
+
 # Ordner für die HTML-Dokumentation
 # Die Ergebnisse sind reproduzierbar, deshalb wird das
 # Verzeichnis html ignoriert
