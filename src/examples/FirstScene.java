@@ -8,6 +8,13 @@ import geometry.shapes.*;
  * Szene mit ASCII-Ausgaben auf der Konsole.
  */
 public class FirstScene {
+	/**
+	 * Hauptprogramm, das einige Instanzen erzeugt. 
+	 * 
+	 * Die Liste wird abschließend auf der Konsole ausgegeben.
+	 * 
+	 * @param args Argumente für die Anwendung
+	 */
 	public static void main(String[] args) {
 		Scene scene = new Scene();
 		Line line = new Line();
