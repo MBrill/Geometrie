@@ -1,0 +1,4 @@
+<map id="geometry.shapes.Rectangle" name="geometry.shapes.Rectangle">
+<area shape="rect" id="node1" title="Ein Rechteck als zweidimensionales Objekt." alt="" coords="5,175,189,340"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1_shape.html" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="27,5,167,127"/>
+</map>

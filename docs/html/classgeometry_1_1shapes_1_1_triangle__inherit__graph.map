@@ -1,0 +1,4 @@
+<map id="geometry.shapes.Triangle" name="geometry.shapes.Triangle">
+<area shape="rect" id="node1" title="Ein Dreieck als zweidimensionales Objekt." alt="" coords="5,175,176,325"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1_shape.html" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="21,5,161,127"/>
+</map>

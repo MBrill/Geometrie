@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=utf-8"/>
+<title>FirstScene.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="$relpath/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="$relpath/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.8.15 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="pages.html"><span>Zusätzliche&#160;Informationen</span></a></li>
+      <li><a href="namespaces.html"><span>Pakete</span></a></li>
+      <li><a href="annotated.html"><span>Klassen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li><a href="examples.html"><span>Beispiele</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FirstScene.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<p>Dieses Beispiel zeigt exemplarisch, wie die verschiedenen Objekte instanziiert und in eine Instanz der Klasse Scene aufgenommen werden.Anschliessend geben wir die Szene auf der Konsole aus. Dabei wird die Szene intern durchlaufen und alle enthaltenen Objekte, in der Reihenfolge, in der sie hinzugefügt wurden, werden ausgegeben.</p>
+<div class="fragment"><div class="line"><span class="keyword">package </span>examples;</div><div class="line"></div><div class="line"><span class="keyword">import</span> <a class="code" href="namespacegeometry.html">geometry</a>.*;</div><div class="line"><span class="keyword">import</span> <a class="code" href="namespacegeometry.html">geometry</a>.<a class="code" href="namespacegeometry_1_1shapes.html">shapes</a>.*;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>FirstScene {</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a0"></a><a class="code" href="classexamples_1_1_first_scene.html#a8886b69fe9c179f48d0a2ebe075932bd">main</a>(String[] args) {</div><div class="line">        Scene scene = <span class="keyword">new</span> Scene();</div><div class="line">        Line line = <span class="keyword">new</span> Line();</div><div class="line">        Rectangle box = <span class="keyword">new</span> Rectangle();</div><div class="line">        Triangle triangle = <span class="keyword">new</span> Triangle();</div><div class="line">        Circle circle = <span class="keyword">new</span> Circle();</div><div class="line">        </div><div class="line">        scene.addObject(line);</div><div class="line">        scene.addObject(box);</div><div class="line">        scene.addObject(triangle);  </div><div class="line">        scene.addObject(circle);    </div><div class="line">        </div><div class="line">        System.out.println(<span class="stringliteral">&quot;Die Szene&quot;</span>);</div><div class="line">        System.out.println(scene);</div><div class="line">            }</div><div class="line"></div><div class="line">}</div></div><!-- fragment --> </div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Don Sep 3 2020 09:09:32 für Java Klassen für zweidimensionale geometrische Objekte von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

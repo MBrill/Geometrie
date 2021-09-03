@@ -1,0 +1,4 @@
+<map id="geometry.shapes.Circle" name="geometry.shapes.Circle">
+<area shape="rect" id="node1" title="Ein Kreis als zweidimensionales Objekt." alt="" coords="5,175,164,311"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1_shape.html" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="15,5,155,127"/>
+</map>

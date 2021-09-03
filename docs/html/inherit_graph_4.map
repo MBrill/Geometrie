@@ -1,0 +1,7 @@
+<map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
+<area shape="rect" id="node1" href="$classgeometry_1_1_shape.html" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="5,81,123,108"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1shapes_1_1_circle.html" title="Ein Kreis als zweidimensionales Objekt." alt="" coords="183,5,342,32"/>
+<area shape="rect" id="node3" href="$classgeometry_1_1shapes_1_1_line.html" title="Eine Linie als zweidimensionales Objekt." alt="" coords="187,56,338,83"/>
+<area shape="rect" id="node4" href="$classgeometry_1_1shapes_1_1_rectangle.html" title="Ein Rechteck als zweidimensionales Objekt." alt="" coords="171,107,355,133"/>
+<area shape="rect" id="node5" href="$classgeometry_1_1shapes_1_1_triangle.html" title="Ein Dreieck als zweidimensionales Objekt." alt="" coords="177,157,348,184"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="geometry.Shape" name="geometry.Shape">
+<area shape="rect" id="node1" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="289,5,429,127"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1shapes_1_1_circle.html" title="Ein Kreis als zweidimensionales Objekt." alt="" coords="5,189,164,325"/>
+<area shape="rect" id="node3" href="$classgeometry_1_1shapes_1_1_line.html" title="Eine Linie als zweidimensionales Objekt." alt="" coords="188,189,339,325"/>
+<area shape="rect" id="node4" href="$classgeometry_1_1shapes_1_1_rectangle.html" title="Ein Rechteck als zweidimensionales Objekt." alt="" coords="363,175,547,340"/>
+<area shape="rect" id="node5" href="$classgeometry_1_1shapes_1_1_triangle.html" title="Ein Dreieck als zweidimensionales Objekt." alt="" coords="571,182,742,333"/>
+</map>

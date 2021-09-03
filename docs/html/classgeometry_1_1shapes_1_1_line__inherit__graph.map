@@ -1,0 +1,4 @@
+<map id="geometry.shapes.Line" name="geometry.shapes.Line">
+<area shape="rect" id="node1" title="Eine Linie als zweidimensionales Objekt." alt="" coords="5,175,156,311"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1_shape.html" title="Basisklasse für die zweidimensionalen geometrische Objekte." alt="" coords="11,5,151,127"/>
+</map>

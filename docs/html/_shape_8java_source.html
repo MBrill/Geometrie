@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=utf-8"/>
+<title>Shape.java Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="$relpath/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="$relpath/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.8.15 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="pages.html"><span>Zusätzliche&#160;Informationen</span></a></li>
+      <li><a href="namespaces.html"><span>Pakete</span></a></li>
+      <li><a href="annotated.html"><span>Klassen</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li><a href="examples.html"><span>Beispiele</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_405fd32de3649961a5f009c7a3fe84df.html">geometry</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Shape.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_shape_8java.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>geometry;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classgeometry_1_1_shape.html">   17</a></span>&#160;<span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="classgeometry_1_1_shape.html">Shape</a> {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    </div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">   22</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classgeometry_1_1_point2_d.html">Point2D</a> <a class="code" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">refPoint</a>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    </div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classgeometry_1_1_shape.html#a05a817de42b7eaa46d2bd07a557b03fa">   27</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classgeometry_1_1_shape.html#a05a817de42b7eaa46d2bd07a557b03fa">Shape</a>() {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">refPoint</a> = <span class="keyword">new</span> <a class="code" href="classgeometry_1_1_point2_d.html">Point2D</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classgeometry_1_1_shape.html#abe09acff32a37ced2dd28b80f42555ee">   36</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classgeometry_1_1_shape.html#abe09acff32a37ced2dd28b80f42555ee">Shape</a>(<a class="code" href="classgeometry_1_1_point2_d.html">Point2D</a> p) {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">refPoint</a> = <span class="keyword">new</span> <a class="code" href="classgeometry_1_1_point2_d.html">Point2D</a>(p);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    </div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classgeometry_1_1_shape.html#ab918e8e6580144aea8b000509452744a">   48</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">double</span> <a class="code" href="classgeometry_1_1_shape.html#ab918e8e6580144aea8b000509452744a">distanceTo</a>(<a class="code" href="classgeometry_1_1_shape.html">Shape</a> s) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">refPoint</a>.<a class="code" href="classgeometry_1_1_point2_d.html#a89a5a7bbf2c5e65a21d41142cd1899f8">distanceTo</a>(s.<a class="code" href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">refPoint</a>);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">protected</span> <span class="keyword">abstract</span> <a class="code" href="classgeometry_1_1_point2_d.html">Point2D</a> <a class="code" href="classgeometry_1_1_shape.html#aa52f2ec6ab83fc02e38a3bfb29a519ac">computeRefPoint</a>();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    </div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="ttc" id="classgeometry_1_1_shape_html_a05a817de42b7eaa46d2bd07a557b03fa"><div class="ttname"><a href="classgeometry_1_1_shape.html#a05a817de42b7eaa46d2bd07a557b03fa">geometry.Shape.Shape</a></div><div class="ttdeci">Shape()</div><div class="ttdoc">Objekt mit Referenzpunkt im Default der Klasse Point2D.</div><div class="ttdef"><b>Definition:</b> <a href="_shape_8java_source.html#l00027">Shape.java:27</a></div></div>
+<div class="ttc" id="classgeometry_1_1_shape_html"><div class="ttname"><a href="classgeometry_1_1_shape.html">geometry.Shape</a></div><div class="ttdoc">Basisklasse für die zweidimensionalen geometrische Objekte.</div><div class="ttdef"><b>Definition:</b> <a href="_shape_8java_source.html#l00017">Shape.java:17</a></div></div>
+<div class="ttc" id="classgeometry_1_1_shape_html_a7833dc9230de9594bae41830f5e5a0f3"><div class="ttname"><a href="classgeometry_1_1_shape.html#a7833dc9230de9594bae41830f5e5a0f3">geometry.Shape.refPoint</a></div><div class="ttdeci">Point2D refPoint</div><div class="ttdoc">Referenzpunkt.</div><div class="ttdef"><b>Definition:</b> <a href="_shape_8java_source.html#l00022">Shape.java:22</a></div></div>
+<div class="ttc" id="classgeometry_1_1_point2_d_html_a89a5a7bbf2c5e65a21d41142cd1899f8"><div class="ttname"><a href="classgeometry_1_1_point2_d.html#a89a5a7bbf2c5e65a21d41142cd1899f8">geometry.Point2D.distanceTo</a></div><div class="ttdeci">double distanceTo(Point2D p)</div><div class="ttdoc">Euklidischer Abstand zwischen der Instanz und einem weiteren Punkt.</div><div class="ttdef"><b>Definition:</b> <a href="_point2_d_8java_source.html#l00106">Point2D.java:106</a></div></div>
+<div class="ttc" id="classgeometry_1_1_point2_d_html"><div class="ttname"><a href="classgeometry_1_1_point2_d.html">geometry.Point2D</a></div><div class="ttdoc">Eine Klasse für die Repräsentation von Punkten in der zweidimensionalen Ebene.</div><div class="ttdef"><b>Definition:</b> <a href="_point2_d_8java_source.html#l00013">Point2D.java:13</a></div></div>
+<div class="ttc" id="classgeometry_1_1_shape_html_aa52f2ec6ab83fc02e38a3bfb29a519ac"><div class="ttname"><a href="classgeometry_1_1_shape.html#aa52f2ec6ab83fc02e38a3bfb29a519ac">geometry.Shape.computeRefPoint</a></div><div class="ttdeci">abstract Point2D computeRefPoint()</div><div class="ttdoc">Funktion, die den Referenzpunkt berechnet.</div></div>
+<div class="ttc" id="classgeometry_1_1_shape_html_ab918e8e6580144aea8b000509452744a"><div class="ttname"><a href="classgeometry_1_1_shape.html#ab918e8e6580144aea8b000509452744a">geometry.Shape.distanceTo</a></div><div class="ttdeci">double distanceTo(Shape s)</div><div class="ttdoc">Abstand zwischen zwei geometrischen Objekten.</div><div class="ttdef"><b>Definition:</b> <a href="_shape_8java_source.html#l00048">Shape.java:48</a></div></div>
+<div class="ttc" id="classgeometry_1_1_shape_html_abe09acff32a37ced2dd28b80f42555ee"><div class="ttname"><a href="classgeometry_1_1_shape.html#abe09acff32a37ced2dd28b80f42555ee">geometry.Shape.Shape</a></div><div class="ttdeci">Shape(Point2D p)</div><div class="ttdoc">Objekt mit einem Referenzpunkt.</div><div class="ttdef"><b>Definition:</b> <a href="_shape_8java_source.html#l00036">Shape.java:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Don Sep 3 2020 09:09:32 für Java Klassen für zweidimensionale geometrische Objekte von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
