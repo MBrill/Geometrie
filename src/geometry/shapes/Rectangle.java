@@ -9,7 +9,7 @@ import geometry.Shape;
 
 public class Rectangle extends Shape {
 
-	final private Logger rectLog = Logger.getLogger("Rectangle.class.getName()");
+	final private Logger rectLog = Logger.getLogger(Rectangle.class.getName());
 	final private Handler systemOut = new ConsoleHandler();
 	
 	private Point2D base = new Point2D(0.0, 0.0);	
