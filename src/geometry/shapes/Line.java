@@ -9,7 +9,7 @@ import geometry.Shape;
 
 public class Line extends Shape {
 
-	final private Logger lineLog = Logger.getLogger("Line.class.getName()");
+	final private Logger lineLog = Logger.getLogger(Line.class.getName());
 	final private Handler systemOut = new ConsoleHandler();
 	
 	Point2D begin = new Point2D(0.0, 0.0);
